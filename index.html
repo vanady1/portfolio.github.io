@@ -15,31 +15,24 @@
     />
   </head>
   <body>
-    <div class="desktop-1">
+    <div class="desktop-6">
       <div class="backround"></div>
-      <div class="hinterground-ganz-oben"></div>
       <img
-        class="buttom-1-hintergrund"
+        class="kraft-paper-texture"
         alt=""
-        src="./public/buttom-1-hintergrund.svg"
+        src="./public/kraft-paper-texture@2x.png"
+      /><img
+        class="upper-background"
+        alt=""
+        src="./public/upper-background@2x.png"
       />
-      <div class="line-under-buttoms"></div>
+      <div class="upper-line"></div>
       <img
-        class="kontakt-button-hintergrund"
+        class="button-instagram-icon"
         alt=""
-        src="./public/buttom-1-hintergrund.svg"
+        src="./public/button-instagram.svg"
+        id="buttonInstagram"
       />
-      <div class="kontakt-button">
-        <div class="kontakt-wrapper"><div class="kontakt">Kontakt</div></div>
-      </div>
-      <img
-        class="icon-instagram-button"
-        alt=""
-        src="./public/icon-instagram.svg"
-        id="iconInstagramButton"
-      />
-      <div class="hintergrund-foto"></div>
-      <div class="foto"><div class="fotoo"></div></div>
       <div class="text">
         <div class="portfolio-haupttext">Portfolio</div>
         <div class="mediendesign-ist-mein" data-scroll-to="mediendesignIstMein">
@@ -50,31 +43,58 @@
           ständig, mich weiterzuentwickeln und neue Fähigkeiten zu erlernen.
         </div>
       </div>
-      <img
-        class="kraft-paper-texture"
-        alt=""
-        src="./public/kraft-paper-texture@2x.png"
-      /><button class="kontakt-button-button" id="kontaktButtonButton">
-        <div class="kontakt-wrapper"><div class="projekte">Projekte</div></div>
-      </button>
+      <div class="button-kontakt">
+        <img
+          class="property-1kontakt-button-hint"
+          alt=""
+          src="./public/property-1kontakt-button-hintergrund.svg"
+        />
+        <div class="property-1kontakt-button">
+          <div class="kontakt-wrapper"><div class="kontakt">Kontakt</div></div>
+        </div>
+      </div>
+      <div class="button-projekte">
+        <img
+          class="property-1buttom-1-hintergrun"
+          alt=""
+          src="./public/property-1kontakt-button-hintergrund.svg"
+        /><button
+          class="property-1kontakt-button1"
+          id="property1KontaktButton1"
+        >
+          <div class="kontakt-button">
+            <div class="kontakt-wrapper">
+              <div class="projekte">Projekte</div>
+            </div>
+          </div>
+        </button>
+      </div>
+      <div class="foto">
+        <div class="property-1hintergrund-foto">
+          <div class="hintergrund-foto"></div>
+        </div>
+        <div class="property-1foto"><div class="fotoo"></div></div>
+      </div>
     </div>
 
     <script>
-      var iconInstagramButton = document.getElementById("iconInstagramButton");
-      if (iconInstagramButton) {
-        iconInstagramButton.addEventListener("click", function () {
+      var buttonInstagram = document.getElementById("buttonInstagram");
+      if (buttonInstagram) {
+        buttonInstagram.addEventListener("click", function () {
           window.open("https://instagram.com/plntkpks_art?igshid=YmMyMTA2M2Y=");
         });
       }
       
-      var kontaktButtonButton = document.getElementById("kontaktButtonButton");
-      if (kontaktButtonButton) {
-        kontaktButtonButton.addEventListener("click", function () {
+      var property1KontaktButton1 = document.getElementById(
+        "property1KontaktButton1"
+      );
+      if (property1KontaktButton1) {
+        property1KontaktButton1.addEventListener("click", function () {
           var anchor = document.querySelector(
             "[data-scroll-to='mediendesignIstMein']"
           );
           if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+            anchor.scrollIntoView({ block: "center", behavior: "smooth" });
           }
         });
       }
