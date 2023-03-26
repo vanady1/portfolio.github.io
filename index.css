@@ -1471,17 +1471,33 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: var(--color-palegoldenrod-100);
+  background-color: #fff9e3;
+}
+.posters-rainbow-left1 {
+  position: absolute;
+  top: 43px;
+  left: 102px;
+  width: 184px;
+  height: 100px;
+}
+.posters-rainbow-right1 {
+  position: absolute;
+  top: 63px;
+  left: 504px;
+  width: 156px;
+  height: 65px;
 }
 .film-title,
 .film3 {
   position: absolute;
   height: 129px;
 }
-.film-title,
 .film3 {
-  position: absolute;
-  height: 129px;
+  top: calc(50% - 64.5px);
+  left: calc(50% - 99.5px);
+  display: inline-block;
+  width: 200px;
+  -webkit-text-stroke: 2px #000;
 }
 .film-title {
   top: calc(50% - 293.5px);
@@ -1489,9 +1505,10 @@
   width: 761px;
   text-align: left;
   font-size: var(--font-size-81xl);
-  color: var(--color-palevioletred);
+  color: #FF93C0;
   font-family: var(--font-baloo-bhaina);
 }
+
 @media screen and (max-width: 1200px) {
   .test {
     display: flex;
