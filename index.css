@@ -1508,6 +1508,22 @@
   color: #FF93C0;
   font-family: var(--font-baloo-bhaina);
 }
+.film-text-holder{
+  position: absolute;
+  top: calc(50% - 116.5px);
+  left: calc(50% - 511px);
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 1022px;
+  height: 397px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-6xl);
+  align-items: center;
+  justify-content: center;
+}
 
 @media screen and (max-width: 1200px) {
   .test {
