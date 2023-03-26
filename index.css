@@ -1458,8 +1458,6 @@
 .film-scroll{
   height: 910px;
   scale: 85%;
-  padding-top: 20px;
-  margin-bottom: -100px;
   align-self: stretch;
   flex-shrink: 0;
 }
