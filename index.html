@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Athiti:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo Bhaina:wght@400&display=swap" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="79" height="79" fill="none" viewBox="0 0 79 79">
+      <mask id="a" fill="#fff">
+        <path fill-rule="evenodd"
+          d="M39.5 79C61.315 79 79 61.315 79 39.5S61.315 0 39.5 0 0 17.685 0 39.5 17.685 79 39.5 79Zm.465-54.835 25.094 25.137-4.59 4.597-20.497-20.532-20.505 20.54-4.596-4.605 25.094-25.137Z"
+          clip-rule="evenodd" />
+      </mask>
+      <path fill="#fff" fill-opacity=".5" fill-rule="evenodd"
+        d="M39.5 79C61.315 79 79 61.315 79 39.5S61.315 0 39.5 0 0 17.685 0 39.5 17.685 79 39.5 79Zm.465-54.835 25.094 25.137-4.59 4.597-20.497-20.532-20.505 20.54-4.596-4.605 25.094-25.137Z"
+        clip-rule="evenodd" />
+      <path fill="#000"
+        d="m65.059 49.302 1.415 1.413 1.41-1.413-1.41-1.413-1.415 1.413ZM39.965 24.165l1.415-1.413-1.415-1.418-1.416 1.418 1.416 1.413Zm20.504 29.734-1.415 1.413 1.415 1.418 1.416-1.418-1.416-1.413ZM39.972 33.367l1.416-1.413-1.416-1.418-1.415 1.417 1.415 1.414Zm-20.505 20.54-1.415 1.412 1.415 1.418 1.416-1.418-1.416-1.413Zm-4.596-4.605-1.416-1.413-1.41 1.413 1.41 1.413 1.416-1.413ZM77 39.5C77 60.21 60.21 77 39.5 77v4C62.42 81 81 62.42 81 39.5h-4ZM39.5 2C60.21 2 77 18.79 77 39.5h4C81 16.58 62.42-2 39.5-2v4ZM2 39.5C2 18.79 18.79 2 39.5 2v-4C16.58-2-2 16.58-2 39.5h4ZM39.5 77C18.79 77 2 60.21 2 39.5h-4C-2 62.42 16.58 81 39.5 81v-4Zm26.974-29.111L41.38 22.752l-2.83 2.826 25.093 25.137 2.831-2.826Zm-4.59 7.423 4.59-4.597-2.83-2.826-4.59 4.597 2.83 2.826ZM38.558 34.78l20.497 20.532 2.83-2.826-20.496-20.532-2.831 2.825ZM20.883 55.32l20.505-20.54-2.831-2.827-20.505 20.54 2.83 2.826Zm-7.428-4.605 4.597 4.604 2.83-2.826-4.596-4.604-2.83 2.826ZM38.55 22.752 13.455 47.889l2.831 2.826L41.38 25.578l-2.83-2.826Z"
+        mask="url(#a)" />
+    </svg>
+  </button>
+  <main class="test">
+    <div class="portfolio">
+      <div class="portfolio-background"></div>
+      <div class="text">
+        Hier ist mein Portfolio für die Bewerbung für das Wintersemester 2023.
+        Ich wünsche Ihnen viel Spaß auf meiner Seite und stehe Ihnen bei
+        weiteren Fragen und Anliegen gerne jederzeit zur Verfügung :
+      </div>
+      <div class="portfolio-and-clouds">
+        <div class="portfolio1">Portfolio</div>
+        <div class="portfolio2">Portfolio</div>
+        <div class="portfolio3">Portfolio</div>
+        <div class="cloud-group2" data-animate-on-scroll>
+          <img class="pcloud6-icon" alt="" src="./public/rectangle-62.svg" /><img class="pcloud5-icon" alt=""
+            src="./public/rectangle-218.svg" /><img class="pcloud4-icon" alt="" src="./public/rectangle-64.svg" />
+        </div>
+        <div class="cloud-group1" data-animate-on-scroll>
+          <img class="pcloud3-icon" alt="" src="./public/rectangle-59.svg" /><img class="pcloud2-icon" alt=""
+            src="./public/rectangle-61.svg" /><img class="pcloud1-icon" alt="" src="./public/rectangle-621.svg" /><img
+            class="pcloud1-icon1" alt="" src="./public/rectangle-58.svg" />
+        </div>
+        <div class="portfolio4">Portfolio</div>
+      </div>
+      <button class="instagram-button" id="instagramButton">
+        <div class="instagram-button-child"></div>
+        <img class="instagram-button-item" alt="" src="./public/ellipse-9.svg" /><img class="instagram-button-inner"
+          alt="" src="./public/ellipse-10.svg" />
+      </button><button class="kontakt-button" id="kontaktButton">
+        <div class="projekte-wrapper">
+          <div class="projekte">Kontakt</div>
+        </div>
+      </button>
+      <div class="projekte-button">
+        <div class="kontakt-button-button">
+          <div class="projekte-wrapper">
+            <div class="projekte1">Projekte</div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="posters" id="posters">
+            <div class="projekte-wrapper">
+              <div class="produktdesign">Posters</div>
+            </div>
+          </button><button class="posters" id="gamedesign">
+            <div class="projekte-wrapper">
+              <div class="produktdesign">Game-Design</div>
+            </div>
+          </button><button class="posters" id="uI">
+            <div class="projekte-wrapper">
+              <div class="produktdesign">UX/UI</div>
+            </div>
+          </button><button class="posters" id="typografie">
+            <div class="projekte-wrapper">
+              <div class="produktdesign">Typografie</div>
+            </div>
+          </button><button class="posters" id="coupons">
+            <div class="projekte-wrapper">
+              <div class="produktdesign">Coupons</div>
+            </div>
+          </button><button class="posters" id="d">
+            <div class="projekte-wrapper">
+              <div class="produktdesign">3D-Design</div>
+            </div>
+          </button><button class="posters" id="illustrationen">
+            <div class="projekte-wrapper">
+              <div class="produktdesign">Illustrationen</div>
+            </div>
+          </button><button class="produktionsdesign" id="produktionsdesign">
+            <div class="projekte-wrapper">
+              <div class="produktdesign">Produktdesign</div>
+            </div>
+          </button><button class="produktionsdesign" id="fotoshooting">
+            <div class="projekte-wrapper">
+              <div class="produktdesign">Fotoshooting</div>
+            </div>
+          </button><button class="produktionsdesign" id="film">
+            <div class="projekte-wrapper">
+              <div class="produktdesign">Film</div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="ber-mich">
+      <div class="frame-1">
+        <div class="ber-mich1">Über mich</div>
+        <div class="ber-mich-text-holder">
+          <div class="hallo-mein-name-container">
+            <p class="hallo-mein-name">
+              Hallo, mein Name ist Lisa und ich bin 20 Jahre alt. Ich bin in
+              Kirgisistan geboren und habe einen großen Traum: Mediendesign zu
+              studieren. Ich mag alles, was mit Design und Kreativität zu tun
+              hat und kann mir keinen anderen Beruf vorstellen, der besser zu
+              mir passt. Meine Leidenschaft gilt der visuellen Gestaltung und
+              den Medien. Im Alter von 18 Jahren kam ich alleine nach
+              Deutschland, um meinen eigenen Weg zu gehen und meine
+              Leidenschaft zum Beruf zu machen.
+            </p>
+            <p class="hallo-mein-name">
+              Als Tochter einer Deutschen und einer Russin, die in Asien
+              geboren ist, bin ich in verschiedenen Kulturkreisen aufgewachsen
+              und fühle mich mit vielen verschiedenen Menschen sehr wohl. Ich
+              schätze es sehr, neue Bekanntschaften zu machen und von anderen
+              zu lernen. Mediendesign ist ein Bereich, der es mir ermöglicht,
+              meine kreative Seite auszuleben und gleichzeitig mit anderen
+              Menschen zusammenzuarbeiten, um gemeinsam Projekte zu
+              realisieren.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="frame-2">
+        <div class="photo">
+          <div class="photo-child"></div>
+          <div class="photo-item"></div>
+          <div class="photo-inner"></div>
+          <img class="liza-photo-icon" alt="" src="./public/img-20230320-173545-827-1@2x.png" />
+        </div>
+      </div>
+    </div>
+    <div class="posters-scroll" data-scroll-to="pOSTERSContainer">
+      <div class="posters-background"></div>
+      <div class="posters-text-holder">
+        <div class="eine-meiner-neuesten">
+          Eine meiner neuesten Arbeiten sind diese Poster. Vielleicht wirken
+          sie auf den ersten Blick etwas seltsam oder sogar komisch. Aber
+          diese Poster haben eine wichtige Botschaft: Jeder von uns übt
+          möglicherweise Gewalt aus, ohne es zu merken oder zu spüren. Diese
+          Gewalt kann subtil sein und sich in alltäglichen Handlungen und
+          Worten verstecken, hat aber dennoch Konsequenzen für die gesamte
+          Menschheit und die Umwelt. In meinen Postern habe ich diese
+          Botschaft auf metaphorische oder groteske Weise dargestellt. Ich
+          hoffe, dass diese Darstellung die Aufmerksamkeit der Menschen auf
+          die vielen schrecklichen und unmenschlichen Dinge lenkt, die wir als
+          normalen Teil unseres Alltags betrachten, wie zum Beispiel Mobbing,
+          Krieg oder Massentierhaltung.
+        </div>
+      </div>
+      <div class="posters-and-rainbows">
+        <img class="posters-rainbow-left" alt="" src="./public/posters-rainbow-left.svg" /><img
+          class="posters-rainbow-right" alt="" src="./public/posters-rainbow-right.svg" />
+        <div class="posters2">Posters</div>
+      </div>
+    </div>
+    <div class="posters-scroll">
+      <div class="posters-scroll-background">
+        <section class="product">
+          <button class="pre-btn"><svg xmlns="http://www.w3.org/2000/svg" width="78" height="46" fill="none"
+              transform="rotate(90)" viewBox="0 0 78 46">
+              <mask id="a" fill="#fff">
+                <path fill-rule="evenodd"
+                  d="M77.757 38.879 38.88 0 0 38.879 7.121 46l31.77-31.769L70.646 45.99l7.11-7.11Z"
+                  clip-rule="evenodd" />
+              </mask>
+              <path fill="#FFF6E1" fill-rule="evenodd"
+                d="M77.757 38.879 38.88 0 0 38.879 7.121 46l31.77-31.769L70.646 45.99l7.11-7.11Z" clip-rule="evenodd" />
+              <path fill="#000"
+                d="m38.879 0 1.414-1.414-1.414-1.414-1.415 1.414L38.88 0Zm38.878 38.879 1.414 1.414 1.415-1.414-1.415-1.415-1.414 1.415ZM0 38.879l-1.414-1.415-1.414 1.415 1.414 1.414L0 38.879ZM7.121 46l-1.414 1.414 1.414 1.414 1.415-1.414L7.12 46Zm31.77-31.769 1.413-1.414-1.414-1.414-1.414 1.414 1.414 1.414ZM70.646 45.99l-1.414 1.414 1.414 1.414 1.414-1.414-1.414-1.414ZM37.464 1.413l38.879 38.879 2.828-2.829L40.293-1.414l-2.829 2.828Zm-36.05 38.88L40.293 1.414l-2.829-2.828-38.878 38.878 2.828 2.829Zm7.122 4.293-7.122-7.122-2.828 2.829 7.121 7.121 2.829-2.828Zm0 2.828 31.768-31.769-2.828-2.828L5.707 44.586l2.829 2.828Zm28.94-31.769 31.757 31.758 2.828-2.829-31.757-31.757-2.828 2.829Zm38.867 21.82-7.11 7.11 2.828 2.828 7.11-7.11-2.828-2.829Z"
+                mask="url(#a)" />
+            </svg>
+          </button>
+          <button class="nxt-btn"><svg xmlns="http://www.w3.org/2000/svg" width="78" height="46" fill="none"
+              transform="rotate(90)" viewBox="0 0 78 46">
+              <mask id="a" fill="#fff">
+                <path fill-rule="evenodd"
+                  d="M77.757 38.879 38.88 0 0 38.879 7.121 46l31.77-31.769L70.646 45.99l7.11-7.11Z"
+                  clip-rule="evenodd" />
+              </mask>
+              <path fill="#FFF6E1" fill-rule="evenodd"
+                d="M77.757 38.879 38.88 0 0 38.879 7.121 46l31.77-31.769L70.646 45.99l7.11-7.11Z" clip-rule="evenodd" />
+              <path fill="#000"
+                d="m38.879 0 1.414-1.414-1.414-1.414-1.415 1.414L38.88 0Zm38.878 38.879 1.414 1.414 1.415-1.414-1.415-1.415-1.414 1.415ZM0 38.879l-1.414-1.415-1.414 1.415 1.414 1.414L0 38.879ZM7.121 46l-1.414 1.414 1.414 1.414 1.415-1.414L7.12 46Zm31.77-31.769 1.413-1.414-1.414-1.414-1.414 1.414 1.414 1.414ZM70.646 45.99l-1.414 1.414 1.414 1.414 1.414-1.414-1.414-1.414ZM37.464 1.413l38.879 38.879 2.828-2.829L40.293-1.414l-2.829 2.828Zm-36.05 38.88L40.293 1.414l-2.829-2.828-38.878 38.878 2.828 2.829Zm7.122 4.293-7.122-7.122-2.828 2.829 7.121 7.121 2.829-2.828Zm0 2.828 31.768-31.769-2.828-2.828L5.707 44.586l2.829 2.828Zm28.94-31.769 31.757 31.758 2.828-2.829-31.757-31.757-2.828 2.829Zm38.867 21.82-7.11 7.11 2.828 2.828 7.11-7.11-2.828-2.829Z"
+                mask="url(#a)" />
+            </svg>
+          </button>
+          <div class="product-container">
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./public/posters/poster1.png" class="product-thumb" alt="">
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./public/posters/poster2.png" class="product-thumb" alt="">
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./public/posters/poster3.png" class="product-thumb" alt="">
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./public/posters/poster4.png" class="product-thumb" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="posters-scroll" data-scroll-to="gAMEDESIGNContainer">
+      <div class="gamedesign-background"></div>
+      <div class="gamedesign-text-holder">
+        <div class="in-diesem-projekt-container">
+          <span class="in-diesem-projekt-container1">
+            <p class="hallo-mein-name">
+              In diesem Projekt, das sich noch in der Entwicklungsphase
+              befindet, beschäftige ich mich mit der Idee eines Spiels. Das
+              Konzept besteht darin, die Zutaten für ein "Rezept" des Glücks
+              zu mischen. Poetisch, nicht wahr? In den Gläsern, die der Koch
+              zum Kochen benutzt, sind Bestandteile des Glücksrezeptes
+              enthalten, sei es 300 Gramm warmer Umarmungen, ein guter Film
+              mit Freunden, ein warmes Bad oder ein gefühlvoller Abend mit der
+              Familie. Das Ziel des Spiels ist es zu zeigen, dass wir unser
+              wahres Glück und unsere Freude sammeln können, indem wir alle
+              Zutaten im richtigen Verhältnis mischen. Das kann unter anderem
+              auch als eine schöne Inspiration für das kommende Wochenende im
+              Kreis der Familie, mit Freunden, zu zweit oder im Selbstgespräch
+              dienen.
+            </p>
+            <p class="hallo-mein-name">
+              Bei der Gestaltung dieses Spiels war mir vor allem wichtig zu
+              vermitteln, dass auch die kleinsten Dinge dazu beitragen können,
+              andere und vor allem uns selbst zumindest ein wenig glücklicher
+              zu machen.
+            </p>
+          </span>
+        </div>
+      </div>
+      <div class="gamedesign-and-clouds">
+        <img class="gamedesign-cloud3-icon" alt="" src="./public/gamedesign-cloud3.svg" /><img
+          class="gamedesign-cloud2-icon" alt="" src="./public/gamedesign-cloud2.svg" />
+        <div class="game-design1">Game-Design</div>
+        <img class="gamedesign-cloud1-icon" alt="" src="./public/gamedesign-cloud1.svg" />
+      </div>
+    </div>
+    <div class="game-prozess">
+      <div class="ablauf-parent">
+        <div class="ablauf">Ablauf</div>
+        <div class="images">
+          <img class="gamedesign-prozess-1" alt="" src="./public/gamedesign-prozess-1@2x.png" /><img
+            class="gamedesign-prozess-2" alt="" src="./public/gamedesign-prozess-2@2x.png" />
+        </div>
+        <div class="text1">
+          <div class="ich-habe-alle">
+            Ich habe alle 3D-Modelle, Texturen und Animationen erstellt und
+            das Video-Rendering durchgeführt. Derzeit arbeite ich an der
+            Weiterentwicklung des Spiels, indem ich alle 3D-Komponenten in
+            Unity exportiere, um anschließend die Funktionalität des Spiels zu
+            implementieren.
+          </div>
+        </div>
+      </div>
+      <div class="gamedesign-prozess-3-wrapper">
+        <img class="gamedesign-prozess-3" alt="" src="./public/povarok-r1-1@2x.png" />
+      </div>
+      <div class="game-prozess-child">
+        <iframe width=100% height=100% src="https://www.youtube.com/embed/Qm-hjNRASAE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="ui1">
+      <div class="frame-11" data-scroll-to="frame1Container">
+        <div class="hallo-mein-name-container">
+          <div class="uxui">UX/UI</div>
+          <img class="ui-leaf2-icon" alt="" src="./public/rectangle-213.svg" /><img class="ui-leaf1-icon" alt=""
+            src="./public/rectangle-214.svg" />
+        </div>
+        <div class="ui1-parent">
+          <img class="ui1-icon" alt="" src="./public/add1-1@2x.png" />
+          <div class="was-ist-die">
+            “Was ist die moderne Form von Design ohne UX-UI-Design?” habe ich
+            oft gelesen und gehört und mich entschlossen, es auszuprobieren,
+            indem ich eine App für Hörbücher gestaltet habe. Als jemand, der
+            gerne Bücher liest, weiß ich, dass eine ansprechende Präsentation
+            und Darstellung das Interesse der Leser, bzw. Hörer, insbesondere
+            von jungen Menschen, wecken kann.
+          </div>
+        </div>
+      </div>
+      <div class="deshalb-habe-ich-mich-fr-eine-parent">
+        <div class="deshalb-habe-ich">
+          Deshalb habe ich mich für eine pastellfarbene Palette entschieden,
+          die sich laut Psychologen positiv auf die Nutzer auswirken kann,
+          besonders auf Kinder und Teenager. Ein ruhiges Grün vermittelt eine
+          beruhigende und entspannende Atmosphäre und kann dazu beitragen, das
+          Hörerlebnis zu verbessern. Zusätzlich habe ich Illustrationen mit
+          Hilfe von Neuronalen Netzen erstellt und habe vor, in Zukunft eine
+          App mit einem solchen Design tatsächlich zu entwickeln und zu
+          programmieren.
+        </div>
+        <img class="ui2-icon" alt="" src="./public/add2-1@2x.png" />
+      </div>
+    </div>
+    <div class="posters-scroll" data-scroll-to="tYPOGRAFIEContainer">
+      <div class="typografie-background"></div>
+      <div class="typografie-text-holder">
+        <div class="ich-habe-meine">
+          Ich habe meine eigene Schrift erstellt, die von der
+          Renaissance-Epoche in Italien inspiriert ist. Das ist meine Art, der
+          Schönheit und Eleganz der Schriftarten aus dieser Zeit eine
+          Liebeserklärung zu machen: Ich wollte meine eigene Interpretation
+          davon erschaffen. Mein Ziel war es, eine Schrift zu entwerfen, die
+          universell einsetzbar ist und für viele Arten von Postern und
+          Überschriften geeignet ist. Zudem habe ich vor, meine Schrift in
+          Zukunft weiterzuentwickeln und auch auf andere Sprachen wie zum
+          Beispiel Kyrillisch und auf Zahlen auszuweiten.
+        </div>
+      </div>
+      <div class="typografie-and-clouds">
+        <img class="typografie-cloud-left" alt="" src="./public/rectangle-87.svg" /><img class="typografie-cloud-right"
+          alt="" src="./public/rectangle-88.svg" />
+        <div class="typografie2">Typografie</div>
+      </div>
+    </div>
+    <div class="typografie-images">
+      <img class="italica-1-icon" alt="" src="./public/italica-fertig--2@2x.png" />
+      <div class="italica-2-parent">
+        <img class="italica-2-icon" alt="" src="./public/lost--1@2x.png" /><img class="italica-3-icon" alt=""
+          src="./public/lost-test-1-1@2x.png" />
+      </div>
+    </div>
+    <div class="posters-scroll" data-scroll-to="cOUPONSContainer">
+      <div class="typografie-background"></div>
+      <div class="coupons-text-holder">
+        <div class="ich-habe-meine">
+          Wären nicht solche kleinen Gutscheine für Unternehmen lustig und
+          interessant? - dachte ich mir eines Tages und entwarf folgende
+          Coupons. Oftmals hatte ich online ähnliche Gutscheine gesehen, die
+          jedoch meistens eher auf ein bestimmtes Produkt oder eine
+          Dienstleistung beschränkt waren und nicht immer kreativ gestaltet
+          wurden. Aus diesem Grund entschied ich mich dazu, etwas Neues und
+          Innovatives zu schaffen, das die Aufmerksamkeit potenzieller Kunden
+          auf sich zieht. Meine Coupons sind bunt, kreativ und anders als das,
+          was man üblicherweise sieht. Ich hoffe, dass sie eines Tages von
+          einem Unternehmen genutzt werden, um die Marke zu stärken und die
+          Kunden zu verzaubern.
+        </div>
+      </div>
+      <div class="coupons-and-stars">
+        <img class="coupons-star1-icon" alt="" src="./public/coupons-star1.svg" />
+        <div class="coupons2">Coupons</div>
+        <img class="coupons-star2-icon" alt="" src="./public/coupons-star2.svg" />
+      </div>
+    </div>
+    <div class="coupons-images">
+      <img class="coupons1-icon" alt="" src="./public/coupons1@2x.png" /><img class="coupons1-icon" alt=""
+        src="./public/coupons2@2x.png" /><img class="coupons1-icon" alt="" src="./public/coupons3@2x.png" />
+    </div>
+    <div class="posters-scroll" data-scroll-to="dDESIGNContainer">
+      <div class="d-design-background"></div>
+      <div class="d-design-text-holder">
+        <div class="als-ich-zum-container">
+          <span class="in-diesem-projekt-container1">
+            <p class="hallo-mein-name">
+              Als ich zum ersten Mal mit 3D-Programmen arbeitete, war ich
+              verzaubert - mit Hilfe der Technik kann man verschiedene Objekte
+              in eine digitale Form bringen und gestalten! Wow! Die Frage, die
+              ich mir jedoch gestellt habe, war, worin der Unterschied
+              zwischen der Wahrnehmung von 3D-Objekten und der Realität
+              besteht. Daraufhin kam ich auf die Idee, ein Projekt zu starten,
+              bei dem ich die reale Welt mit der Welt der 3D-Modelle
+              vergleiche. Obwohl es eine offene Frage ist, welche besser oder
+              schöner ist und welchen Eindruck sie auf den Betrachter machen,
+              finde ich es spannend, diese beiden Welten zu vergleichen und zu
+              erkunden.
+            </p>
+            <p class="hallo-mein-name">
+              Unten können Sie Fotos von mir kreierter Tonobjekten (linke
+              Spalte) und entsprechenden 3D-Modellen (rechte Spalte) sehen.
+              Und? Welche haben einen tieferen Eindruck bei Ihnen
+              hinterlassen?
+            </p>
+          </span>
+        </div>
+      </div>
+      <div class="d-design1">
+        <div class="d-design2">3D-Design</div>
+        <img class="d-design-rainbow-left" alt="" src="./public/3d-design-rainbow-left.svg" /><img
+          class="d-design-rainbow-right" alt="" src="./public/3d-design-rainbow-right.svg" />
+      </div>
+    </div>
+    <div class="d-design-scroll"></div>
+    <div class="posters-scroll" data-scroll-to="pRODUKTDESIGNContainer">
+      <div class="produktdesign-background"></div>
+      <div class="produktdesign-text-holder">
+        <div class="in-diesem-projekt-container2">
+          <p class="hallo-mein-name">
+            In diesem Projekt habe ich das Verpackungsdesign für eine fiktive
+            Süßwarenfirma entwickelt. Ich habe ein Logo-Design und einige
+            Beispiele für Kuchenverpackungen erstellt. Die Idee des Designs
+            war es, die Uhr und den Kuchen miteinander zu verbinden, um Zeit
+            und Genuss zu verbinden.
+          </p>
+          <p class="hallo-mein-name">
+            Das Farbschema wurde sorgfältig ausgewählt, um eine fröhliche und
+            einladende Atmosphäre zu schaffen. Stellt euch vor: es ist
+            Frühling und ihr genießt den köstlichen Kuchen mit Früchten oder
+            Beeren auf einem sonnigen Picknickplatz mit Freunden. Yummy!
+          </p>
+        </div>
+      </div>
+      <div class="produktdesign-and-stars">
+        <div class="produktdesign2">Produktdesign</div>
+        <img class="produktdesign-star-left" alt="" src="./public/produktdesign-star-left.svg" /><img
+          class="produktdesign-star-right" alt="" src="./public/produktdesign-star-right.svg" />
+      </div>
+    </div>
+    <div class="produktdesign-images">
+      <div class="produktdesign-1-parent">
+        <img class="produktdesign-1-icon" alt="" src="./public/3-1@2x.png" /><img class="produktdesign-2-icon" alt=""
+          src="./public/pfpf3-2@2x.png" /><img class="produktdesign-3-icon" alt="" src="./public/asab-1@2x.png" />
+      </div>
+      <div class="produktdesign-4-parent">
+        <img class="produktdesign-1-icon" alt="" src="./public/3-2@2x.png" /><img class="produktdesign-2-icon" alt=""
+          src="./public/vfvf2-1@2x.png" /><img class="produktdesign-3-icon" alt="" src="./public/derar-2@2x.png" />
+      </div>
+    </div>
+    <div class="posters-scroll" data-scroll-to="iLLUSTRATIONENContainer">
+      <div class="illustrationen-background"></div>
+      <div class="illustrationen-text-holder">
+        <div class="hallo-mein-name-container">
+          <p class="hallo-mein-name">
+            Literatur und Bücher haben schon immer eine zentrale Rolle in
+            meinem Leben gespielt. Dies hat mich dazu bewegt, meine eigenen
+            Gedichte zu schreiben. Wenn es mir jedoch schwer fällt, die
+            richtigen Worte zu finden, versuche ich sie durch Bildsprache zu
+            ergänzen. So erscheinen mir die Ideen, die ich vermitteln möchte,
+            vollständiger und greifbarer. Deshalb habe ich in diesem Projekt
+            eine Reihe von Illustrationen zu meinen Gedichten mit Hilfe von
+            Procreate erstellt. Zudem war ich neugierig, wie dieses Buch in
+            Papierform aussehen wird, und habe es ausgedruckt.
+          </p>
+          <p class="hallo-mein-name">
+            Ich träume davon, meine Ideen sowohl visuell als auch wörtlich
+            präsentieren zu lernen und hoffe, in Zukunft weiterhin Comics und
+            Illustrationen zu erstellen.
+          </p>
+        </div>
+      </div>
+      <div class="illustrationen-text-and-flower">
+        <div class="illustrationen2">Illustrationen</div>
+        <img class="illustrationen-flower3-icon" alt="" src="./public/illustrationen-flower3.svg" /><img
+          class="illustrationen-flower2-icon" alt="" src="./public/illustrationen-flower2.svg" /><img
+          class="illustrationen-flower1-icon" alt="" src="./public/illustrationen-flower1.svg" />
+      </div>
+    </div>
+    <div class="d-design-scroll">
+      <div class="illustrationen-scroll-backgrou"></div>
+    </div>
+    <div class="fotoshooting1" data-scroll-to="fOTOSHOOTINGContainer">
+      <div class="fotoset-background"></div>
+      <div class="fotoset-text-holder">
+        <div class="hallo-mein-name-container">
+          Heute kann man mit Sicherheit behaupten – nichts ist, so wie es noch
+          vor kurzem war. Coronavirus, Krieg, die schwierige wirtschaftliche
+          und politische Situation auf der ganzen Welt. All diese Umstände
+          sollten die Menschen nicht davon abhalten, sich zu freuen, glücklich
+          zu sein und das Schöne im Leben zu sehen. Mit dieser Aktion habe ich
+          versucht, zumindest ein kleines Lächeln auf die Gesichter der
+          Passanten, die mir zufällig auf der Straße begegnet sind, zu
+          bringen. Es ist erstaunlich, wie wenig ein Lächeln kostet. Mich hat
+          das Projekt „<a class="random-acts-of-kindness" href="https://www.randomactsofkindness.org/"
+            target="_blank"><span class="random-acts-of">Random acts of kindness</span></a>“ inspiriert. In diesem
+          Projekt geht es darum, fremden Menschen auf
+          der Straße spontan etwas Gutes zu tun.
+        </div>
+      </div>
+      <div class="fotoset-and-cameras">
+        <div class="fotoshooting2">Fotoshooting</div>
+        <img class="fotos-camera-left" alt="" src="./public/fotos-camera-left.svg" /><img class="fotos-camera-right"
+          alt="" src="./public/fotos-camera-right.svg" />
+      </div>
+    </div>
+    <div class="fotoset-scroll"></div>
+    <div class="posters-scroll" data-scroll-to="fILMContainer">
+      <div class="film2"></div>
+      <div class="posters-text-holder">
+        <div class="eine-meiner-neuesten">
+          <p class="hallo-mein-name">
+            Inmitten des Trubels und der Verwirrung unserer Welt, sehnen wir
+            uns manchmal nach Einsamkeit und der Möglichkeit, Zeit mit uns
+            selbst zu verbringen. Doch in einer Stadt wie Stuttgart, scheint
+            dies fast unmöglich zu sein. Doch was, wenn es dennoch möglich
+            ist?
+          </p>
+          <p class="hallo-mein-name">
+            Dieser Gedanke steht im Fokus des Films "One of Us". Es geht
+            darum, wie wichtig es in unserer hektischen Welt ist, sich Zeit
+            für uns selbst zu nehmen und unsere innere Stimme zu hören. Der
+            Film zeigt auf beeindruckende Weise, dass es trotz der Unruhe und
+            dem Trubel der Stadt möglich ist, Einsamkeit und Ruhe zu finden
+            und sich auf sich selbst zu besinnen.
+          </p>
+          <p class="hallo-mein-name">
+            Ich wollte hervorheben, wie wichtig es ist, in einer hektischen
+            Welt Zeit für uns selbst zu finden und uns auf unsere innere
+            Stimme zu besinnen.
+          </p>
+        </div>
+      </div>
+      <div class="film-title">
+        <img class="posters-rainbow-left1" alt="" src="./public/posters-rainbow-left1.svg" /><img
+          class="posters-rainbow-right1" alt="" src="./public/posters-rainbow-right1.svg" />
+        <div class="film3">
+          <p class="hallo-mein-name">Film</p>
+        </div>
+      </div>
+    </div>
+    <div class="film-scroll">
+      <iframe width=100% height=80% src="https://www.youtube.com/embed/UghXkCM33iI" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    <div class="kontakt" data-scroll-to="kONTAKTContainer">
+      <div class="kontakt-background"></div>
+      <img class="kontakt-clouds-icon" alt="" src="./public/kontakt-clouds.svg" />
+      <div class="kontakt-text">
+        <div class="kontaktinfo">Kontaktinfo</div>
+        <div class="elizavetaberchgmailcom-4917">
+          <span class="elizavetaberchgmailcom-49171">
+            <p class="hallo-mein-name">elizavetaberch@gmail.com</p>
+            <p class="hallo-mein-name">+4917682464442</p>
+          </span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    var instagramButton = document.getElementById("instagramButton");
+    if (instagramButton) {
+      instagramButton.addEventListener("click", function () {
+        window.open(
+          "https://www.instagram.com/plntkpks_art/?igshid=YmMyMTA2M2Y%3D"
+        );
+      });
+    }
+
+    var kontaktButton = document.getElementById("kontaktButton");
+    if (kontaktButton) {
+      kontaktButton.addEventListener("click", function () {
+        var anchor = document.querySelector("[data-scroll-to='kONTAKTContainer']");
+        if (anchor) {
+          anchor.scrollIntoView({ block: "end", behavior: "smooth" });
+        }
+      });
+    }
+
+    var posters = document.getElementById("posters");
+    if (posters) {
+      posters.addEventListener("click", function () {
+        var anchor = document.querySelector("[data-scroll-to='pOSTERSContainer']");
+        if (anchor) {
+          anchor.scrollIntoView({ block: "center", behavior: "smooth" });
+        }
+      });
+    }
+
+    var gamedesign = document.getElementById("gamedesign");
+    if (gamedesign) {
+      gamedesign.addEventListener("click", function () {
+        var anchor = document.querySelector(
+          "[data-scroll-to='gAMEDESIGNContainer']"
+        );
+        if (anchor) {
+          anchor.scrollIntoView({ block: "center", behavior: "smooth" });
+        }
+      });
+    }
+
+    var uI = document.getElementById("uI");
+    if (uI) {
+      uI.addEventListener("click", function () {
+        var anchor = document.querySelector("[data-scroll-to='frame1Container']");
+        if (anchor) {
+          anchor.scrollIntoView({ block: "center", behavior: "smooth" });
+        }
+      });
+    }
+
+    var typografie = document.getElementById("typografie");
+    if (typografie) {
+      typografie.addEventListener("click", function () {
+        var anchor = document.querySelector(
+          "[data-scroll-to='tYPOGRAFIEContainer']"
+        );
+        if (anchor) {
+          anchor.scrollIntoView({ block: "center", behavior: "smooth" });
+        }
+      });
+    }
+
+    var coupons = document.getElementById("coupons");
+    if (coupons) {
+      coupons.addEventListener("click", function () {
+        var anchor = document.querySelector("[data-scroll-to='cOUPONSContainer']");
+        if (anchor) {
+          anchor.scrollIntoView({ block: "center", behavior: "smooth" });
+        }
+      });
+    }
+
+    var d = document.getElementById("d");
+    if (d) {
+      d.addEventListener("click", function () {
+        var anchor = document.querySelector("[data-scroll-to='dDESIGNContainer']");
+        if (anchor) {
+          anchor.scrollIntoView({ block: "center", behavior: "smooth" });
+        }
+      });
+    }
+
+    var illustrationen = document.getElementById("illustrationen");
+    if (illustrationen) {
+      illustrationen.addEventListener("click", function () {
+        var anchor = document.querySelector(
+          "[data-scroll-to='iLLUSTRATIONENContainer']"
+        );
+        if (anchor) {
+          anchor.scrollIntoView({ block: "center", behavior: "smooth" });
+        }
+      });
+    }
+
+    var produktionsdesign = document.getElementById("produktionsdesign");
+    if (produktionsdesign) {
+      produktionsdesign.addEventListener("click", function () {
+        var anchor = document.querySelector(
+          "[data-scroll-to='pRODUKTDESIGNContainer']"
+        );
+        if (anchor) {
+          anchor.scrollIntoView({ block: "center", behavior: "smooth" });
+        }
+      });
+    }
+
+    var fotoshooting = document.getElementById("fotoshooting");
+    if (fotoshooting) {
+      fotoshooting.addEventListener("click", function () {
+        var anchor = document.querySelector(
+          "[data-scroll-to='fOTOSHOOTINGContainer']"
+        );
+        if (anchor) {
+          anchor.scrollIntoView({ block: "center", behavior: "smooth" });
+        }
+      });
+    }
+
+    var film = document.getElementById("film");
+    if (film) {
+      film.addEventListener("click", function () {
+        var anchor = document.querySelector("[data-scroll-to='fILMContainer']");
+        if (anchor) {
+          anchor.scrollIntoView({ block: "center", behavior: "smooth" });
+        }
+      });
+    }
+
+    var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+    var observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting || entry.intersectionRatio > 0) {
+            const targetElement = entry.target;
+            targetElement.classList.add("animate");
+            observer.unobserve(targetElement);
+          }
+        }
+      },
+      {
+        threshold: 0.15,
+      }
+    );
+
+    for (let i = 0; i < scrollAnimElements.length; i++) {
+      observer.observe(scrollAnimElements[i]);
+    }
+  </script>
+</body>
+
+</html>
