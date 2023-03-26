@@ -1525,6 +1525,14 @@
   justify-content: center;
 }
 
+.abgaben-termine-todos {
+  margin: 0;
+}
+.abgaben-termine-todos-container {
+  align-self: stretch;
+  position: relative;
+}
+
 @media screen and (max-width: 1200px) {
   .test {
     display: flex;
