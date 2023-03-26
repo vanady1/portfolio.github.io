@@ -14,8 +14,6 @@
   --color-black: #000;
   --color-goldenrod: #ffc553;
   --color-violet: #ff93e7;
-  --color-palevioletred: #ff93c0;
-  --color-palegoldenrod-100: #fffdc1;
   --color-mediumseagreen-100: #41bc64;
   --color-mistyrose-100: #ffe3e3;
   --color-sandybrown-100: #ff9b52;
@@ -25,11 +23,11 @@
   --gap-39xl: 58px;
 
   /* Paddings */
-  --padding-xl: 20px;
-  --padding-6xl: 25px;
   --padding-mid: 17px;
+  --padding-xl: 20px;
   --padding-12xl: 31px;
   --padding-2xl: 21px;
+  --padding-6xl: 25px;
   --padding-51xl: 70px;
   --padding-57xl: 76px;
   --padding-3xs: 10px;
@@ -93,6 +91,17 @@ img {
 .product-card {
   margin-right: -7%;
   flex: 0 0 auto;
+
+  height: 100%;
+  
+  list-style: none;
+ /* display: block;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  font-size: 0;
+  line-height: 0;
+  position: relative; */
 }
 
 .product-image {
@@ -175,4 +184,3 @@ img {
   grid-column: span 2;
   margin-bottom: 10px;
 }
-
